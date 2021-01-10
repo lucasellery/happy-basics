@@ -1,0 +1,25 @@
+/*O que é uma regra css*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh; /* ocupa toda  tela */
+  color: white;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 18px/1 "Nunito", sans-serif;
+}
+
+#page-landing {
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+  text-align: center;
+  min-height: 100vh;
+}
